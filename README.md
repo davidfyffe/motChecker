@@ -20,9 +20,12 @@ Cancellations are released at 8:30am.
 `30 09 * * 1-5 cd /Users/username/Workspaces/motChecker && /usr/local/bin/npm test` example job to run Mon-Fri at 9:30am. It cd's to the location of the code and just runs npm test to kick of the test.
 
 
-# troubleshoot:
+### troubleshoot:
 Problem with chromedriver version.  
-`npm uninstall -g protractor`
+```npm uninstall -g protractor```
+
 `npm install -g protractor`
+
 `webdriver-manager update`
+
 `webdriver-manager start`
